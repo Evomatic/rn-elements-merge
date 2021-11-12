@@ -1,24 +1,67 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from 'react-native-elements';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 function App() {
   return (
+    
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Button
+  title="Solid Button"
+/>
+
+<Button
+  title="Outline button"
+  type="outline"
+/>
+
+<Button
+  title="Clear button"
+  type="clear"
+/>
+
+<Button
+  icon={
+    <Icon
+      name="arrow-right"
+      size={15}
+      color="white"
+    />
+  }
+  title="Button with icon component"
+/>
+
+<Button
+  icon={{
+    name: "arrow-right",
+    size: 15,
+    color: "white"
+  }}
+  title="Button with icon object"
+/>
+
+<Button
+  icon={
+    <Icon
+      name="arrow-right"
+      size={15}
+      color="white"
+    />
+  }
+  iconRight
+  title="Button with right icon"
+/>
+
+<Button
+  title="Loading button"
+  loading
+/>
+
     </div>
+
   );
 }
 

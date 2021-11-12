@@ -1,0 +1,218 @@
+{
+  "categorizedComponents": [
+    {
+      "components": [
+        {
+          "defaultExported": true,
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/Button",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/Button/Button.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/Button/presets/0-default.jsx"
+              }
+            ]
+          },
+          "name": "Button",
+          "presets": [
+            {
+              "elements": {
+                "button": {
+                  "name": "Button",
+                  "props": {
+                    "disabled": false,
+                    "loading": true,
+                    "title": "Loading button",
+                    "type": "outline"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "button"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "loading",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "title",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "type",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ],
+          "wrappers": []
+        },
+        {
+          "defaultExported": true,
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/Checkbox",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/Checkbox/Checkbox.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/Checkbox/presets/0-default.jsx"
+              }
+            ]
+          },
+          "name": "Checkbox",
+          "presets": [
+            {
+              "elements": {
+                "checkbox": {
+                  "name": "Checkbox",
+                  "props": {
+                    "checked": false
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "checkbox"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "checked",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "checkedColor",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "title",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ],
+          "wrappers": []
+        },
+        {
+          "defaultExported": true,
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/components/Input",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/components/Input/Input.js"
+            },
+            "presets": [
+              {
+                "path": "src/components/Input/presets/0-default.jsx"
+              }
+            ]
+          },
+          "name": "Input",
+          "presets": [],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "label",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "placeholder",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ],
+          "wrappers": []
+        }
+      ],
+      "name": "General"
+    }
+  ],
+  "name": "Example Design System",
+  "vcs": {
+    "branchName": "master",
+    "commitHash": "4bb5819d1a9a1897c540835e9cb5cd6050b90109",
+    "paths": {
+      "configPath": "/Users/evantrujillo/Documents/coding/work/rn-elements-merge/uxpin.config.js",
+      "projectRoot": "/Users/evantrujillo/Documents/coding/work/rn-elements-merge"
+    }
+  }
+}
